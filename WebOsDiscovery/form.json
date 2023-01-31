@@ -1,0 +1,30 @@
+{
+	"elements":
+	[
+	],
+
+	"actions":
+	[
+		{
+			"type": "Configurator",
+			"name": "Configurator",
+			"caption": "LG WebOS TV Discovery",
+			"delete": false,
+			"sort":
+			{
+				"column": "Addr",
+				"direction": "ascending"
+			},
+			"columns":
+			[
+				{"caption": "IP Adress", "name": "Addr", "width": "250px"},
+				{"caption": "MAC Adress", "name": "MAC", "width": "250px"},
+				{"caption": "Name", "name": "Name", "width": "250px"},
+				{"caption": "Host", "name": "Host", "width": "250px"}
+			],
+			"values":
+			[
+			]
+		}
+	]
+}

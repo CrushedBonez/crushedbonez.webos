@@ -1,0 +1,20 @@
+{
+	"elements":
+	[
+		{ "name": "MAC",		"type": "ValidationTextBox",	"caption": "MAC Address",	"enabled": false},
+		{ "name": "WebOSKey",		"type": "ValidationTextBox",	"caption": "WebOS-Key" }
+	],
+
+	"actions":
+	[
+		{ "type": "Button", "label": "Get/Verify WebOS Key",	"onClick": "WebOS_lg_handshake($id);"},
+		{ "type": "Button", "label": "Send Test-Message",	"onClick": "WebOS_message($id, \"Connection to Symcon active...\");"},
+		{ "type": "Button", "label": "Get TV Info",		"onClick": "WebOS_GetSystemInfo($id);"},
+		{ "type": "Button", "label": "Connect",			"onClick": "WebOS_connect($id);"},
+		{ "type": "Button", "label": "Disconnect",		"onClick": "WebOS_disconnect($id);"}
+	],
+	"status":
+	[
+
+	]
+}

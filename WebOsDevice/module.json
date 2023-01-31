@@ -1,0 +1,14 @@
+{
+	"id": "{4B55D292-0BD0-4F8C-A40D-2A8B5E782EEF}",
+	"name": "WebOsDevice",
+	"type": 3,
+	"vendor": "LG",
+	"aliases": 
+	[
+		"LG WebOS TV"
+	],
+	"parentRequirements": ["{79827379-F36E-4ADA-8A95-5F8D1DC92FA9}"],
+	"childRequirements": [],
+	"implemented": ["{018EF6B5-AB94-40C6-AA53-46943E824ACF}"],
+	"prefix": "WebOS"
+}

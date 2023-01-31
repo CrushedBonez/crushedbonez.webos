@@ -1,0 +1,14 @@
+{
+	"id": "{4B55D292-0BD0-4F8C-A40D-2A8B5E782EFF}",
+	"name": "WebOsDiscovery",
+	"type": 5,
+	"vendor":"LG",
+	"aliases": 
+	[
+		"LG WebOS TV Discovery"
+	],
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "WebOS"
+}

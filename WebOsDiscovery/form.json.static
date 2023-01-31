@@ -1,0 +1,51 @@
+{
+	"elements":
+	[
+	],
+
+	"actions":
+	[
+		{
+			"type": "Configurator",
+			"name": "Configurator",
+			"caption": "LG WebOS TV Discovery",
+			"delete": false,
+			"sort":
+			{
+				"column": "Address",
+				"direction": "ascending"
+			},
+			"columns":
+			[
+				{"caption": "IP Adress", "name": "Addr", "width": "250px"},
+				{"caption": "MAC Adress", "name": "MAC", "width": "250px"},
+				{"caption": "Name", "name": "Name", "width": "250px"},
+				{"caption": "Host", "name": "Host", "width": "250px"}
+			],
+			"values":
+			[
+				{
+					"Addr":"192.168.179.19",
+					"Mac":"to be filled",
+					"Name":"[LG] webOS TV UP77009LB",
+					"Host":"LGwebOSTV.local",
+					"instanceID":0,
+					"create":[
+					{
+						"moduleID":"{4b55d292-0bd0-4f8c-a40d-2a8b5e782eef}",
+						"configuration":{"MAC":"to be filled"}
+					},
+					{
+						"moduleID":"{D68FD31F-0E90-7019-F16C-1949BD3079EF}",
+						"configuration":
+						{
+							"URL":"ws:\/\/192.168.179.19:3000",
+							"Active":true
+						}
+					}
+					]
+					}
+			]
+		}
+	]
+}
